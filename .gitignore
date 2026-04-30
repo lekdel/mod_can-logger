@@ -44,7 +44,8 @@
 *.cmd
 .tmp_versions/
 
-*/build/
+build/
 # Local secrets for mod_can-logger
+
 config.h
-config.h
+build/
