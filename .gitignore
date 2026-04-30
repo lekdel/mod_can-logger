@@ -46,4 +46,5 @@
 
 */build/
 # Local secrets for mod_can-logger
-*/config.h
+config.h
+config.h
