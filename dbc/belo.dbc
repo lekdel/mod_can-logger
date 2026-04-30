@@ -1,0 +1,57 @@
+VERSION ""
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+BO_ 769 telemetrie2: 8 Vector__XXX
+ SG_ etat_charge : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ soc : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 770 telemetrie3: 8 Vector__XXX
+ SG_ temperature_drive : 56|8@1- (1,0) [-128|127] "C" Vector__XXX
+ SG_ id_citerne : 15|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ temperature_moteur : 48|8@1- (1,0) [-128|127] "C" Vector__XXX
+ SG_ temperature_liquide : 40|8@1- (1,0) [-128|127] "" Vector__XXX
+ SG_ temperature_batterie : 32|8@1- (1,0) [-128|127] "" Vector__XXX
+ SG_ type_liquide : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 768 telemetrie1: 8 Vector__XXX
+ SG_ etat_systeme : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ consigne_vitesse_moteur : 8|8@1+ (50,0) [0|12750] "RPM" Vector__XXX
+ SG_ courant_batterie : 48|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ tension_batterie : 40|8@1+ (1,0) [0|255] "V" Vector__XXX
+ SG_ pression : 24|8@1+ (1,0) [0|255] "PSI" Vector__XXX
+ SG_ vitesse_moteur : 16|8@1+ (50,0) [0|12750] "RPM" Vector__XXX
+ SG_ temps_ecoule_dechargement : 0|8@1+ (1,0) [0|255] "min" Vector__XXX
+

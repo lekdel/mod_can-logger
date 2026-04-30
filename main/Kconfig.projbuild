@@ -1,0 +1,5 @@
+menu "Mod CAN Logger"
+
+comment "Configuration WiFi/API via config.h (voir config_exemple.h)"
+
+endmenu
